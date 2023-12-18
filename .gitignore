@@ -1,0 +1,6 @@
+src/node_modules
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/.terraform.tfstate.lock.info
+
+keys.json
