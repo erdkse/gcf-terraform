@@ -33,8 +33,13 @@ variable "project" {
 variable "excludes" {
   type = list(string)
   default = [
+    "dist",
     "node_modules",
-    "package-lock.json"
+    "terraform",
+    ".env",
+    "keys.json",
+    "package-lock.json",
+    ".git"
   ]
 }
 
