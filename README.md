@@ -9,7 +9,6 @@ To run the application on your local machine, make sure to set the required envi
 Once you've provided the necessary environment variables, go to the application folder, install the required dependencies, build the project and run the application.
 
 ```bash
-cd src
 npm install
 npm run build
 npm run dev
