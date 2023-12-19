@@ -1,4 +1,7 @@
-src/node_modules
+node_modules
+.env
+dist
+
 terraform/.terraform
 terraform/.terraform.lock.hcl
 terraform/.terraform.tfstate.lock.info

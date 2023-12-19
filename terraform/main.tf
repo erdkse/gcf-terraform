@@ -43,7 +43,7 @@ resource "google_cloudfunctions_function_iam_member" "allowaccess" {
 data "archive_file" "file" {
   type        = "zip"
   output_path = "/tmp/${var.name}.zip"
-  source_dir  = "${path.module}/../src"
+  source_dir  = "${path.module}/../dist"
   excludes    = var.excludes
 }
 

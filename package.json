@@ -1,0 +1,27 @@
+{
+  "name": "assignment",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 16"
+  },
+  "scripts": {
+    "dev": "functions-framework --target=main --port 8080",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "gcp-build": "npm run build"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "7.3.0",
+    "@google-cloud/functions-framework": "3.3.0",
+    "axios": "1.6.2",
+    "dotenv": "16.3.1",
+    "tempy": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/tmp": "0.2.6",
+    "typescript": "5.3.3"
+  }
+}
